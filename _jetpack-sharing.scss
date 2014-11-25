@@ -1,0 +1,64 @@
+.sharedaddy {
+    .sd-block {
+        .sd-content {
+            ul {
+                li {
+                    .sd-button {
+                        border:none !important;
+                        box-shadow:none !important;
+                        background-color: #303030 !important;
+                        color:#fff !important;
+                        padding:3px 17px 2px 8px;
+                        border-radius:0;
+                        -webkit-font-smoothing: antialiased;
+                        -moz-osx-font-smoothing: grayscale;
+                        transition: background-color 200ms ease-in-out;
+                        &:hover {
+                            background-color: darken(#303030,10%) !important;
+                        }
+                    }
+                }
+                .share-facebook {
+                    .sd-button {
+                        background-color:#3B5998 !important;
+                        &:hover {
+                            background-color: darken(#3B5998,10%) !important;
+                        }
+                    }
+                }
+                .share-twitter {
+                    .sd-button {
+                        background-color:#55acee !important;
+                        &:hover {
+                            background-color: darken(#55acee,10%) !important;
+                        }
+                    }
+                }
+                .share-google-plus-1 {
+                    .sd-button {
+                        background-color:#dd4b39 !important;
+                        &:hover {
+                            background-color: darken(#dd4b39,10%) !important;
+                        }
+                    }
+                }
+                .share-linkedin {
+                    .sd-button {
+                        background-color:#4875B4 !important;
+                        &:hover {
+                            background-color: darken(#4875B4,10%) !important;
+                        }
+                    }
+                }
+                .share-pinterest {
+                    .sd-button {
+                        background-color:#cc2127 !important;
+                        &:hover {
+                            background-color: darken(#cc2127,10%) !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
